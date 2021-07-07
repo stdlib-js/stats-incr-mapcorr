@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-mapcorr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Compute a moving sample absolute Pearson product-moment correlation coefficient incrementally.",
   "license": "Apache-2.0",
   "author": {
