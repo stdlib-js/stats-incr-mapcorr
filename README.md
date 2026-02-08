@@ -82,6 +82,11 @@ The sample **absolute** [Pearson product-moment correlation coefficient][pearson
 ## Usage
 
 ```javascript
+import incrmapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mapcorr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mapcorr/tags). For example,
+
+```javascript
 import incrmapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mapcorr@v0.2.3-esm/index.mjs';
 ```
 
@@ -159,7 +164,7 @@ ar = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mapcorr@v0.2.3-esm/index.mjs';
+import incrmapcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mapcorr@esm/index.mjs';
 
 var accumulator;
 var x;
